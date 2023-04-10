@@ -57,6 +57,7 @@ width: 100px;
 {
    position: absolute;
    top: 250px; 
+   left: 0;
    background-color: #2f1968;
    height: 40px;
    width: 400px;
