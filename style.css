@@ -48,7 +48,7 @@ border-radius: 50%;
 position: relative;
 top: 45%;
 left: 65%;
-width: 200px;
+width: 100px;
  box-shadow: 3px 3px 5px black; 
  z-index: 2;
 
@@ -60,7 +60,7 @@ width: 200px;
    left: 25%; 
    background-color: #2f1968;
    height: 40px;
-   width: 40%;
+   width: 400px;
    display: flex;
    align-items: center; 
    box-shadow: 3px 3px 5px black;
