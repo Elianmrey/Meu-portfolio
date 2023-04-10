@@ -1,3 +1,6 @@
+@media screen and (max-width:585px) {
+  
+
 html {
   height: 100%;
   width: 100%;
@@ -224,6 +227,9 @@ a.contatos:hover
 {
    color: #8b6ed4;
 }
+}
+
+
 @media screen and (min-width: 586px){
   html {
     height: 100%;
