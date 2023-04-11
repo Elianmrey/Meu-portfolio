@@ -37,20 +37,33 @@ body
 {
   border-radius: 20px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   background-color: #9499a4;
   margin: 0 auto;
   height: 200px;
   width: 100%;
 }
+h1
+{
+  color: #FFF;
+  font-size: 40pt;
+  font-family: tangerine;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+  text-shadow: 2px 2px 3px #2e3255;
+}
+
 #fotoperfil
 {
-border-radius: 50%;
+border: 1px solid #2f1968;
+border-radius: 60%;
 position: absolute;
-top: 40px;
-left: 25vh;
-width: 100px;
-box-shadow: 3px 3px 5px black; 
+top: 60px;
+left: 45vh;
+width: 120px;
+/* box-shadow: 3px 3px 5px black;  */
 z-index: 2;
 
 }
@@ -71,14 +84,17 @@ z-index: 2;
 
 a.nav-item{
   display: inline-block;
-  padding: 11px;
+  padding: 8px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
   font-size: small;
 }
 #menu li
 {
+  padding-top: 5px;
+  padding-bottom: 5px;
   transition: background-color 0.5s, text-transform 0.5s;
   background-color: transparent;
   display: inline-block;
@@ -93,21 +109,21 @@ a.nav-item{
   background-color: #1d203a;
   text-transform: uppercase;
 }
+#menu li:first-child
+{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#menu li:last-child
+{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 #maincontent
 {
   margin-top: 10%;
 }
-h1
-{
-  color: #FFF;
-  font-size: 40pt;
-  font-family: tangerine;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
-  z-index: 0;
-  text-shadow: 2px 2px 3px #1d203a;
-}
+
 h2{
   font-family: tangerine;
   font-size: 27pt;
@@ -276,6 +292,17 @@ body
   height: 200px;
   width: 100%;
 }
+h1
+{
+  color: #FFF;
+  font-size: 40pt;
+  font-family: tangerine;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  z-index: 0;
+  text-shadow: 2px 2px 3px #2e3255;
+}
 #fotoperfil
 {
 border-radius: 50%;
@@ -285,7 +312,6 @@ left: 65%;
 width: 200px;
  box-shadow: 3px 3px 5px black; 
  z-index: 2;
-
 }
 #navegacao
 {
@@ -328,17 +354,7 @@ a.nav-item{
 {
   margin-top: 10%;
 }
-h1
-{
-  color: #FFF;
-  font-size: 40pt;
-  font-family: tangerine;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
-  z-index: 0;
-  text-shadow: 2px 2px 3px #1d203a;
-}
+
 h2{
   font-family: tangerine;
   font-size: 27pt;
