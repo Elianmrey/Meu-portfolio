@@ -122,7 +122,7 @@ a.nav-item{
 }
 #menu li:last-child
 {
-  padding-right: 7px;
+  padding-right: 9px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
