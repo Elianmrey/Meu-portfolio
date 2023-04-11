@@ -312,6 +312,7 @@ h1
 }
 #fotoperfil
 {
+  border: 1px solid #4500f5;;
 border-radius: 50%;
 position: relative;
 top: 45%;
