@@ -130,7 +130,10 @@ a.nav-item{
 {
   margin-top: 10%;
 }
-
+#presentation-text
+{
+  margin-top: 60px;
+}
 h2{
   font-family: tangerine;
   font-size: 27pt;
