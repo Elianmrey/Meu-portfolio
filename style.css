@@ -1,4 +1,4 @@
-@media screen and (max-width:585px) {
+
   
 
 html {
@@ -262,11 +262,9 @@ a.contatos:hover
 {
    color: #8b6ed4;
 }
-}
+/* ___________________________________Começo do design para computador______________________________________ */
 
-/* Começo do design para computador */
-
-@media screen and (min-width: 586px){
+@media (min-width: 586px){
   html {
     height: 100%;
     width: 100%;
